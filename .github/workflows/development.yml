@@ -13,7 +13,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        type: [oneui-12-e, oneui-12-p, oneui-11-e, oneui-11-p, aosp-12-e, aosp-12-p, aosp-11-e, aosp-11-p]
+        type: [aosp-12-e, aosp-12-p]
 
     steps:
       - uses: actions/checkout@v3
